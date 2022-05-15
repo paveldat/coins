@@ -25,8 +25,8 @@ def printCoinCombination(Coins, coins):
         print(f"Coin {coin} used {coinsRes[coin]} times")
 
 def main():
-    N = int(input("Введи сумму: "))
-    coins = list(input("Введи номиналы черех пробел: ").split())
+    N = int(input("Enter the number: "))
+    coins = list(input("Enter the list of available coins: ").split())
     print(f"Total numbers of coins: {minCountOfCoints(N, coins)}")
 
 if __name__ == "__main__":
