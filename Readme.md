@@ -8,11 +8,13 @@ Find and show the minimum number of coins that can make a value of an input valu
 * The list of available coins is set by the user
 
 ## Example
+
 Input:
 ```
 Enter the number: 20
 Enter the list of available coins: 1 3 5
 ```
+
 Output:
 ```
 Coin 1 used 0 times
